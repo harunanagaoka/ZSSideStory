@@ -4,7 +4,7 @@ using UnityEngine;
 public class ItemGet : MonoBehaviour
 {
     [SerializeField] private Flowchart m_flowChart;
-    private string m_ItemVariable = "Item";
+    private string m_ItemVariable = "ItemValue";
 
     public enum ItemName
     {
