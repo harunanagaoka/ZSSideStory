@@ -288,7 +288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 262.80002, y: 251.1}
+  scrollPos: {x: 175.00003, y: 199.00002}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -302,7 +302,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 214016701}
   selectedCommands:
-  - {fileID: 214016702}
+  - {fileID: 214016704}
   variables:
   - {fileID: 214016682}
   - {fileID: 214016681}
@@ -1440,8 +1440,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 214016704}
   - {fileID: 214016705}
+  - {fileID: 214016704}
   - {fileID: 214016709}
   - {fileID: 214016702}
   - {fileID: 214016699}
@@ -1508,7 +1508,7 @@ MonoBehaviour:
   variableToUse: {fileID: 214016703}
   onlyIfUnique:
     booleanRef: {fileID: 0}
-    booleanVal: 0
+    booleanVal: 1
 --- !u!114 &214016705
 MonoBehaviour:
   m_ObjectHideFlags: 2
