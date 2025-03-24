@@ -8,9 +8,9 @@ public class CharacterData : ScriptableObject
 
     public ParamsData Params {  get { return m_paramsData; } private set { m_paramsData = value; } }
 
-    public enum CharacterPattern
+    public enum Pattern
     {
-        TestChara,
+        Memeshino_Toka,
         Max
     }
 
