@@ -1,3 +1,5 @@
+using Fungus;
+using System.Linq;
 using UnityEngine;
 
 public class CharacterStatus : MonoBehaviour
@@ -10,4 +12,5 @@ public class CharacterStatus : MonoBehaviour
     {
         m_placeNum = Random.Range(0, max);
     }
+
 }
