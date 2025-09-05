@@ -43,9 +43,13 @@ public class MenuDialogController : MonoBehaviour
 
             //選択肢「名前+場所」を表示、選択したらキャラクターのチャートへ飛ぶ
             Flowchart greetingChart = m_flowChartSelector.GetFlowchart(name);
-            m_kari = greetingChart;
-            m_menuDialog.AddOption(name.ToString() + " in " + place.ToString(),
-                                 true, false, greetingChart.FindBlock("Enter"));
+
+            if (greetingChart != null)
+            {
+                m_kari = greetingChart;
+                m_menuDialog.AddOption(name.ToString() + " in " + place.ToString(),
+                                     true, false, greetingChart.FindBlock("Enter"));
+            }
         }
     }
 

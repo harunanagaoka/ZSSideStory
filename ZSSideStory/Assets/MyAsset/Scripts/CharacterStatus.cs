@@ -12,5 +12,4 @@ public class CharacterStatus : MonoBehaviour
     {
         m_placeNum = Random.Range(0, max);
     }
-
 }
